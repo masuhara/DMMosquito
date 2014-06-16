@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFF19361194EC563003B9D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF19360194EC563003B9D4B /* Foundation.framework */; };
+		AFF19363194EC563003B9D4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF19362194EC563003B9D4B /* CoreGraphics.framework */; };
+		AFF19365194EC563003B9D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF19364194EC563003B9D4B /* UIKit.framework */; };
+		AFF1936B194EC563003B9D4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFF19369194EC563003B9D4B /* InfoPlist.strings */; };
+		AFF1936D194EC563003B9D4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF1936C194EC563003B9D4B /* main.m */; };
+		AFF19371194EC563003B9D4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF19370194EC563003B9D4B /* AppDelegate.m */; };
+		AFF19374194EC563003B9D4B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF19372194EC563003B9D4B /* Main_iPhone.storyboard */; };
+		AFF19377194EC563003B9D4B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF19375194EC563003B9D4B /* Main_iPad.storyboard */; };
+		AFF1937A194EC563003B9D4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF19379194EC563003B9D4B /* ViewController.m */; };
+		AFF1937C194EC564003B9D4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF1937B194EC564003B9D4B /* Images.xcassets */; };
+		AFF19383194EC564003B9D4B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF19382194EC564003B9D4B /* XCTest.framework */; };
+		AFF19384194EC564003B9D4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF19360194EC563003B9D4B /* Foundation.framework */; };
+		AFF19385194EC564003B9D4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF19364194EC563003B9D4B /* UIKit.framework */; };
+		AFF1938D194EC564003B9D4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFF1938B194EC564003B9D4B /* InfoPlist.strings */; };
+		AFF1938F194EC564003B9D4B /* DMMosquitoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF1938E194EC564003B9D4B /* DMMosquitoTests.m */; };
+		AFF19399194EC5B2003B9D4B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF19398194EC5B2003B9D4B /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFF19386194EC564003B9D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF19355194EC563003B9D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFF1935C194EC563003B9D4B;
+			remoteInfo = DMMosquito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFF1935D194EC563003B9D4B /* DMMosquito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMMosquito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF19360194EC563003B9D4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFF19362194EC563003B9D4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFF19364194EC563003B9D4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFF19368194EC563003B9D4B /* DMMosquito-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMMosquito-Info.plist"; sourceTree = "<group>"; };
+		AFF1936A194EC563003B9D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFF1936C194EC563003B9D4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFF1936E194EC563003B9D4B /* DMMosquito-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMMosquito-Prefix.pch"; sourceTree = "<group>"; };
+		AFF1936F194EC563003B9D4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFF19370194EC563003B9D4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFF19373194EC563003B9D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		AFF19376194EC563003B9D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AFF19378194EC563003B9D4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFF19379194EC563003B9D4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFF1937B194EC564003B9D4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFF19381194EC564003B9D4B /* DMMosquitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMMosquitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF19382194EC564003B9D4B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AFF1938A194EC564003B9D4B /* DMMosquitoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMMosquitoTests-Info.plist"; sourceTree = "<group>"; };
+		AFF1938C194EC564003B9D4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFF1938E194EC564003B9D4B /* DMMosquitoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMMosquitoTests.m; sourceTree = "<group>"; };
+		AFF19398194EC5B2003B9D4B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF1935A194EC563003B9D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF19399194EC5B2003B9D4B /* AudioToolbox.framework in Frameworks */,
+				AFF19363194EC563003B9D4B /* CoreGraphics.framework in Frameworks */,
+				AFF19365194EC563003B9D4B /* UIKit.framework in Frameworks */,
+				AFF19361194EC563003B9D4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF1937E194EC564003B9D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF19383194EC564003B9D4B /* XCTest.framework in Frameworks */,
+				AFF19385194EC564003B9D4B /* UIKit.framework in Frameworks */,
+				AFF19384194EC564003B9D4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFF19354194EC563003B9D4B = {
+			isa = PBXGroup;
+			children = (
+				AFF19366194EC563003B9D4B /* DMMosquito */,
+				AFF19388194EC564003B9D4B /* DMMosquitoTests */,
+				AFF1935F194EC563003B9D4B /* Frameworks */,
+				AFF1935E194EC563003B9D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF1935E194EC563003B9D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF1935D194EC563003B9D4B /* DMMosquito.app */,
+				AFF19381194EC564003B9D4B /* DMMosquitoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF1935F194EC563003B9D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF19398194EC5B2003B9D4B /* AudioToolbox.framework */,
+				AFF19360194EC563003B9D4B /* Foundation.framework */,
+				AFF19362194EC563003B9D4B /* CoreGraphics.framework */,
+				AFF19364194EC563003B9D4B /* UIKit.framework */,
+				AFF19382194EC564003B9D4B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFF19366194EC563003B9D4B /* DMMosquito */ = {
+			isa = PBXGroup;
+			children = (
+				AFF1936F194EC563003B9D4B /* AppDelegate.h */,
+				AFF19370194EC563003B9D4B /* AppDelegate.m */,
+				AFF19372194EC563003B9D4B /* Main_iPhone.storyboard */,
+				AFF19375194EC563003B9D4B /* Main_iPad.storyboard */,
+				AFF19378194EC563003B9D4B /* ViewController.h */,
+				AFF19379194EC563003B9D4B /* ViewController.m */,
+				AFF1937B194EC564003B9D4B /* Images.xcassets */,
+				AFF19367194EC563003B9D4B /* Supporting Files */,
+			);
+			path = DMMosquito;
+			sourceTree = "<group>";
+		};
+		AFF19367194EC563003B9D4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFF19368194EC563003B9D4B /* DMMosquito-Info.plist */,
+				AFF19369194EC563003B9D4B /* InfoPlist.strings */,
+				AFF1936C194EC563003B9D4B /* main.m */,
+				AFF1936E194EC563003B9D4B /* DMMosquito-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFF19388194EC564003B9D4B /* DMMosquitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFF1938E194EC564003B9D4B /* DMMosquitoTests.m */,
+				AFF19389194EC564003B9D4B /* Supporting Files */,
+			);
+			path = DMMosquitoTests;
+			sourceTree = "<group>";
+		};
+		AFF19389194EC564003B9D4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFF1938A194EC564003B9D4B /* DMMosquitoTests-Info.plist */,
+				AFF1938B194EC564003B9D4B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF1935C194EC563003B9D4B /* DMMosquito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF19392194EC564003B9D4B /* Build configuration list for PBXNativeTarget "DMMosquito" */;
+			buildPhases = (
+				AFF19359194EC563003B9D4B /* Sources */,
+				AFF1935A194EC563003B9D4B /* Frameworks */,
+				AFF1935B194EC563003B9D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMMosquito;
+			productName = DMMosquito;
+			productReference = AFF1935D194EC563003B9D4B /* DMMosquito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFF19380194EC564003B9D4B /* DMMosquitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF19395194EC564003B9D4B /* Build configuration list for PBXNativeTarget "DMMosquitoTests" */;
+			buildPhases = (
+				AFF1937D194EC564003B9D4B /* Sources */,
+				AFF1937E194EC564003B9D4B /* Frameworks */,
+				AFF1937F194EC564003B9D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFF19387194EC564003B9D4B /* PBXTargetDependency */,
+			);
+			name = DMMosquitoTests;
+			productName = DMMosquitoTests;
+			productReference = AFF19381194EC564003B9D4B /* DMMosquitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF19355194EC563003B9D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jp.co.mappy;
+				TargetAttributes = {
+					AFF19380194EC564003B9D4B = {
+						TestTargetID = AFF1935C194EC563003B9D4B;
+					};
+				};
+			};
+			buildConfigurationList = AFF19358194EC563003B9D4B /* Build configuration list for PBXProject "DMMosquito" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF19354194EC563003B9D4B;
+			productRefGroup = AFF1935E194EC563003B9D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF1935C194EC563003B9D4B /* DMMosquito */,
+				AFF19380194EC564003B9D4B /* DMMosquitoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF1935B194EC563003B9D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF19377194EC563003B9D4B /* Main_iPad.storyboard in Resources */,
+				AFF1937C194EC564003B9D4B /* Images.xcassets in Resources */,
+				AFF19374194EC563003B9D4B /* Main_iPhone.storyboard in Resources */,
+				AFF1936B194EC563003B9D4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF1937F194EC564003B9D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF1938D194EC564003B9D4B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF19359194EC563003B9D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF1937A194EC563003B9D4B /* ViewController.m in Sources */,
+				AFF19371194EC563003B9D4B /* AppDelegate.m in Sources */,
+				AFF1936D194EC563003B9D4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF1937D194EC564003B9D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF1938F194EC564003B9D4B /* DMMosquitoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFF19387194EC564003B9D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFF1935C194EC563003B9D4B /* DMMosquito */;
+			targetProxy = AFF19386194EC564003B9D4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFF19369194EC563003B9D4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF1936A194EC563003B9D4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFF19372194EC563003B9D4B /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF19373194EC563003B9D4B /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF19375194EC563003B9D4B /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF19376194EC563003B9D4B /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF1938B194EC564003B9D4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF1938C194EC564003B9D4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF19390194EC564003B9D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF19391194EC564003B9D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF19393194EC564003B9D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daisuke Masuhara (7DDW2PTU3E)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMMosquito/DMMosquito-Prefix.pch";
+				INFOPLIST_FILE = "DMMosquito/DMMosquito-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "54910A26-572E-4E36-BEE9-86DBA50366FA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFF19394194EC564003B9D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daisuke Masuhara (7DDW2PTU3E)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMMosquito/DMMosquito-Prefix.pch";
+				INFOPLIST_FILE = "DMMosquito/DMMosquito-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "54910A26-572E-4E36-BEE9-86DBA50366FA";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFF19396194EC564003B9D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DMMosquito.app/DMMosquito";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMMosquito/DMMosquito-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DMMosquitoTests/DMMosquitoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AFF19397194EC564003B9D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DMMosquito.app/DMMosquito";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMMosquito/DMMosquito-Prefix.pch";
+				INFOPLIST_FILE = "DMMosquitoTests/DMMosquitoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF19358194EC563003B9D4B /* Build configuration list for PBXProject "DMMosquito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF19390194EC564003B9D4B /* Debug */,
+				AFF19391194EC564003B9D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF19392194EC564003B9D4B /* Build configuration list for PBXNativeTarget "DMMosquito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF19393194EC564003B9D4B /* Debug */,
+				AFF19394194EC564003B9D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFF19395194EC564003B9D4B /* Build configuration list for PBXNativeTarget "DMMosquitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF19396194EC564003B9D4B /* Debug */,
+				AFF19397194EC564003B9D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF19355194EC563003B9D4B /* Project object */;
+}
