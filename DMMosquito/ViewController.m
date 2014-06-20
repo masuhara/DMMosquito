@@ -130,4 +130,9 @@ static OSStatus renderer(void *inRef,
     aU = nil;
 }
 
+- (void)hoge
+{
+    //hogehoge
+}
+
 @end
